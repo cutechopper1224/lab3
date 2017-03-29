@@ -1,0 +1,25 @@
+Compilation Method:
+	make
+
+Experiments for Question B:
+
+For 1000:
+sort():0.000231seconds
+insertion_sort():0.0114seconds
+
+For 10000:
+sort():0.002456seconds
+insertion_sort():1.16617seconds
+
+For 100000:
+sort():0.039628seconds
+insertion_sort():123.541seconds
+
+For 1000000:
+sort():0.454621seconds
+insertion_sort():10406seconds
+
+Time complexity of sort() is O(nlogn),so the time elapsed becomes ten times each turn.
+Time complexity of insertion_sort() is O(n * n) = 10 * 10 = 100,so the elapsed time becomes hundred times each turn;
+
+insertion_sort() needs more clock cycles and more inefficient than sort().
